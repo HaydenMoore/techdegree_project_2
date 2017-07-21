@@ -97,8 +97,28 @@ img {
 	padding-bottom: .5em;
 }
 
+.second-header {
+    display: none;
+}
+
 .main-footer {
 	text-align: center;
+}
+
+.main-footer h3 {
+    float:left;
+   
+}
+
+.main-footer a {
+    float: right;
+   
+}
+
+.main-footer h3,
+.main-footer a {
+    
+    margin: 20px;
 }
 
 
@@ -138,6 +158,30 @@ img {
     z-index: 1000;
     
   }
+    
+    
+    .second-header {
+        display: inline;
+    }
+    
+    .second-footer {
+        display: none;
+    }
+    
+    .name-footer {
+        float: left;
+        padding-left: 20px;
+    }
+    
+    .main-nav-footer {
+        float: right;
+        padding-right: 20x;
+    }
+    
+    .main-nav-footer li {
+        float:left;
+    }
+    
 	.container {
 		width: 100%;
 		margin: 0 auto;
